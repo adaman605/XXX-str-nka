@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Sevillana&display=swap');
 
-*{
-    box-sizing: border-box;
-}
 .portfolio{
     font-size: 110px;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,16 +30,17 @@ li{
 a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    color: white;
 }
 nav{
-    background-color: aqua;
+    background-color: #2E6FF0;
 }
 li:hover{
-    background-color: aquamarine;
+    background-color: #800BF4;
 }
 .main1{
     position: relative;
-    background-color: aqua;
+    background-color: #60BDF0;
 }
 .custom-shape-divider-bottom-1732550790 {
     position: absolute;
@@ -111,17 +109,14 @@ li:hover{
 }
 footer{
     background-color: rgb(36, 34, 34);
-    height: 50px
+    padding: 1px 50px;
+    margin-top: 150px;
+    position: sticky;
+    bottom: 0;
 }
 .footer{
     text-align: right;
     color: aliceblue;
-    margin: 0;
+
 }
-
-
-
-
-
-
 
